@@ -1,0 +1,115 @@
+site_name: Bitbyzen
+copyright: © 2026 Bitbyzen. All rights reserved.
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+
+# ==========================================
+# Navigation Structure (defined first)
+# ==========================================
+
+# English Navigation
+nav_en: &nav_en
+  - Home: index.md
+  - Apps:
+    - Memoq:
+      - Operations:
+        - 01-apps/memoq/operations/update-address.md
+    - Windows:
+      - Operations:
+        - 01-apps/windows/operations/open-account.md
+        - 01-apps/windows/operations/remove-linked-pc.md
+        - 01-apps/windows/operations/take-screenshot.md
+  - Dev:
+    - Docker:
+      - 02-dev/docker/disable-scout-notifications.md
+      - Troubleshooting:
+        - 02-dev/docker/troubleshooting/troubleshoot01.md
+    - MkDocs:
+      - Operations:
+        - 02-dev/mkdocs/operations/add-copyrightfooter.md
+        - 02-dev/mkdocs/operations/add-table.md
+        - 02-dev/mkdocs/operations/packages.md
+      - Troubleshooting:
+        - 02-dev/mkdocs/troubleshooting/get-http.md
+        - 02-dev/mkdocs/troubleshooting/get-sitemap.md
+        - 02-dev/mkdocs/troubleshooting/not-included-in-nav.md
+    - VS Code:
+      - Operations:
+        - 02-dev/vscode/operations/add-image-to-doc.md
+        - 02-dev/vscode/operations/open-linux-folder.md
+        - 02-dev/vscode/operations/open-ubuntu.md
+        - 02-dev/vscode/operations/preview-markdown.md
+        - 02-dev/vscode/operations/add-image-to-folder.md
+
+# Japanese Navigation
+nav_ja: &nav_ja
+  - ホーム: index.md
+  - アプリメモ:
+    - Acrobat:
+      - 01-apps/acrobat/remove-password.md
+    - BitLocker:
+      - 01-apps/bitlocker/unlock.md
+    - ChatGPT:
+      - 01-apps/chatgpt/convert-chat-to-word.md
+    - Claude:
+      - 01-apps/claude/login.md
+    - Outlook:
+      - 01-apps/outlook/disable-forwarding.md
+  - 開発メモ:
+    - Docker:
+      - 02-dev/docker/introduce.md
+      - 02-dev/docker/pricing.md
+      - 02-dev/docker/signin.md
+    - Linux:
+      - 02-dev/linux/fix-execformaterror.md
+      - 02-dev/linux/open-ubuntu.md
+    - MkDocs:
+      - 02-dev/mkdocs/create-bi-web.md
+  - ビジネスメモ:
+    - 03-business/mynumber/use-mynumberhealthcard.md
+  - 言語メモ:
+    - 04-languages/sentences.md
+  - 製品メモ:
+    - Sharp:
+      - 冷蔵庫SJ-X415H-S:
+        - 05-products/sharp/refrigerator/refrigerator-notes.md
+    - Torras:
+      - モバイルバッテリーPB4A:
+        - 05-products/torras/turnon-charger.md
+        - 05-products/torras/use-lowcurrentmode.md
+
+plugins:
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: false
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: EN
+          build: true
+          nav: *nav_en
+        - locale: ja
+          name: JA
+          build: true
+          theme:
+            language: ja
+          nav: *nav_ja
+  - search
+  - glightbox
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.magiclink
+  - admonition
