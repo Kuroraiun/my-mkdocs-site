@@ -1,5 +1,5 @@
 site_name: Bitbyzen
-site_url: https://bitbyzen.github.io/my-mkdocs-site/
+site_url: https://bitbyzen.github.io/kb/
 
 copyright: © 2026 Bitbyzen. All rights reserved.
 
@@ -111,10 +111,10 @@ extra:
   generator: false
   alternate:
     - name: EN
-      link: /my-mkdocs-site/
+      link: /kb/
       lang: en
     - name: JA
-      link: /my-mkdocs-site/ja/
+      link: /kb/ja/
       lang: ja
 
 markdown_extensions:
