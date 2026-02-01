@@ -19,8 +19,11 @@ theme:
 # English Navigation
 nav_en: &nav_en
   - Home: index.md
-  - Apps:
-    - Memoq:
+  - App Notes:
+    - Blender:
+      - Operations:
+        - 01-apps/blender/operation/render-slideshow.md
+    - memoQ:
       - Operations:
         - 01-apps/memoq/operations/update-address.md
     - Windows:
@@ -28,7 +31,7 @@ nav_en: &nav_en
         - 01-apps/windows/operations/open-account.md
         - 01-apps/windows/operations/remove-linked-pc.md
         - 01-apps/windows/operations/take-screenshot.md
-  - Dev:
+  - Dev Notes:
     - Docker:
       - 02-dev/docker/disable-scout-notifications.md
       - Troubleshooting:
