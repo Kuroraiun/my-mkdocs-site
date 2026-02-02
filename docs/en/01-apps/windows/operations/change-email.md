@@ -1,6 +1,6 @@
 # Change the email address
 
-1. Select **Add email**.
+1. Click **Add email**.
    ![Screenshot](images/change-email01.png)
 
 2. Create a new email address.
