@@ -28,10 +28,10 @@ nav_en: &nav_en
         - 01-apps/memoq/operations/update-address.md
     - Windows:
       - Operations:
+        - 01-apps/windows/operations/change-email.md
         - 01-apps/windows/operations/open-account.md
         - 01-apps/windows/operations/remove-linked-pc.md
         - 01-apps/windows/operations/take-screenshot.md
-        - 01-apps/windows/operations/change-email.md
   - Dev Notes:
     - Docker:
       - 02-dev/docker/disable-scout-notifications.md
