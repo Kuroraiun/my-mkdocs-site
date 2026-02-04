@@ -35,6 +35,9 @@ nav_en: &nav_en
     - OpenAI:
       - Operations:
         - 01-apps/openai/operation/cancel-chatgpt.md
+    - Perplexity:
+      - Operations:
+        - 01-apps/perprexity/operations/create-account.md
     - Windows:
       - Operations:
         - 01-apps/windows/operations/change-email.md
