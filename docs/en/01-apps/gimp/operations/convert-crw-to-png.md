@@ -9,6 +9,7 @@
     ![Screenshot](images/convert-crw-to-png02.png) 
 
 1. Click the download link.
+
     ![Screenshot](images/convert-crw-to-png03.png) 
 
 1. Download the installer.
@@ -16,6 +17,7 @@
     ![Screenshot](images/convert-crw-to-png04.png)
 
 1. Click **More info**.
+
     ![Screenshot](images/convert-crw-to-png05.png)
 
 1. Click **Next**.
