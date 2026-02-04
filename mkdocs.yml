@@ -20,6 +20,9 @@ theme:
 nav_en: &nav_en
   - Home: index.md
   - App Notes:
+    - Apps:
+      - Operations:
+        - 01-apps/00-apps/operations/change-fileextensions.md
     - Blender:
       - Operations:
         - 01-apps/blender/operation/render-slideshow.md
