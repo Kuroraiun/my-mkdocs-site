@@ -9,7 +9,7 @@
 3. Enter your email address.
    ![Screenshot](../images/create-account03.png)
 
-4. Confirm your email address.
+4. Enter the email address.
    ![Screenshot](../images/create-account04.png)
 
 5. Enter the verification code.
