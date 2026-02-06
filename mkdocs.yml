@@ -66,6 +66,10 @@ nav_en: &nav_en
         - 02-dev/vscode/operations/open-ubuntu.md
         - 02-dev/vscode/operations/preview-markdown.md
         - 02-dev/vscode/operations/add-image-to-folder.md
+  - Phone Notes:
+    - Simplenote:
+      - Operations:
+        - 03-phone/simplenote/operations/introduce-simplenote.md
 
 # Japanese Navigation
 nav_ja: &nav_ja
