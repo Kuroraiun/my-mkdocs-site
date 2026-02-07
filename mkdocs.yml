@@ -84,6 +84,8 @@ nav_ja: &nav_ja
       - 01-apps/chatgpt/convert-chat-to-word.md
     - Claude:
       - 01-apps/claude/login.md
+    - Notepad++:
+      - 01-apps/notepad++/troubleshooting/protect-yourself.md
     - Outlook:
       - 01-apps/outlook/disable-forwarding.md
   - 開発メモ:

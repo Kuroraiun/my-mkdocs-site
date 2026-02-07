@@ -1,4 +1,4 @@
-# Publish a MkDocs website using GitHub Pages
+# Publish a website using GitHub Pages
 
 1. Connect your project to GitHub.
 
