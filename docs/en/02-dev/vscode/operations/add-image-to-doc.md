@@ -3,5 +3,5 @@
 1. Press **Shift**, then release the image.
 1. The image is added.
 ```bash title="terminal"
-![alt text](images/open-linux-folder01.png)
+![Screenshot](images/open-linux-folder01.png)
 ```

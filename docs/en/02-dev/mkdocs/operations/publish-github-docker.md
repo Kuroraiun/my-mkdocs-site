@@ -43,148 +43,26 @@ If it asks for login:
 - Username = your GitHub username
 - Password = your GitHub Personal Access Token (not your account password)
 
-1. Deploy to GitHub Pages using GitHub Actions (recommended)
-
-    This avoids needing to run gh-deploy locally.
-    4. To set up automatic publishing,
-We’ll let GitHub build and publish the site every time you push.
-Create this file in your project:
-1. To add a GitHub Actions workflow to publish the site:
-create a file:
+1. Add a GitHub Actions workflow to publish the site:
+Create the following folder in the project root folder:
 
 ```
-.github/workflows/deploy.yml
+mkdir -p .github/workflows
 ```
 
+Create an auto-deploy file to set up automatic publishing, then open:
 
+!!! Note
+    The auto-deploy file avoids needing to run gh-deploy locally.
 
 
 ```
-name: Deploy MkDocs to GitHub Pages
-
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
-
-      - name: Install dependencies
-        run: |
-          pip install mkdocs
-          # If you use Material theme, also add:
-          # pip install mkdocs-material
-
-      - name: Build site
-        run: mkdocs build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy
-        uses: actions/deploy-pages@v4
+nano .github/workflows/deploy.yml
 ```
 
-    !!! Note
-        If you don’t use mkdocs-material, remove it from the install line.
-
-
-1. Commit + push:
+Write, save, then exit:
 
 ```
-git add .github/workflows/deploy.yml
-git commit -m "Add GitHub Pages deployment workflow"
-git push
-```
-
-```
-git add .
-git commit -m "Add GitHub Pages deploy workflow"
-git push
-```
-
-
-1. Turn on GitHub Pages, In your repo on GitHub:
-
-Go to **Settings > Pages**, then set:
-
-Source = GitHub Actions
-
-1. Your site will be live at:
-```
-https://YOUR_USERNAME.github.io/YOUR_REPO/
-```
-
-
-You said:
-Uploaded image
-This message appeared.
-```
-Visual Studio Code  
-The extension 'GitHub' wants to sign in using GitHub.
-```
-
-ChatGPT said:
-Click **Allow**.
-
-Note:  
-It means:  
-VS Code → opens browser → you log into GitHub → VS Code gets permission to:
-
-- push code
-- pull code
-- manage repos
-
-It saves you from typing tokens manually.
-
-What will happen next
-1. Your browser opens
-1. GitHub asks to authorize VS Code
-1. Click Authorize
-1. Done
-1. After that, your git push will work without asking for passwords.
-
-Then run again:
-```
-git push -u origin main
-```
-
-You said:
-```
-kuroraiun@Daiv-001:~/projects/docker/python/mkdocs$ git push -u origin main
-Branch 'main' set up to track remote branch 'main' from 'origin'.
-Everything up-to-date
-```
-
-1️⃣ Add the auto-deploy file
-Inside your project folder, create this path:
-
-.github/workflows/deploy.yml
-Paste this inside:
-
 name: Deploy MkDocs
 
 on:
@@ -214,315 +92,51 @@ jobs:
           path: site
 
       - uses: actions/deploy-pages@v4
-Then run:
+```
 
-git add .
-git commit -m "Add site deployment workflow"
-git push
-2️⃣ Turn on Pages in GitHub
-Go to your repo →
-Settings → Pages
+    !!! Note
+        If you don’t use mkdocs-material, change this line in .github/workflows/deploy.yml:  
+        
+        - run: pip install mkdocs mkdocs-material
+        to:  
+        - run: pip install mkdocs
 
-Set:
+Upload it to GitHub.
 
-Source → GitHub Actions
-
-Save.
-
-⏳ Wait 1–2 minutes
-Go to the Actions tab — you’ll see a workflow running. When it’s green ✅ your site is live.
-
-🌍 Your site URL
-https://YOUR_USERNAME.github.io/YOUR_REPO/
-What just happened
-
-https://d2908q01vomqb2.cloudfront.net/7719a1c782a1ba91c031a682a0a2f8658209adbf/2022/03/27/1-ArchitectureDiagram.png
-
-https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AFWoDk-reoCpZ0fWqSZqecA.png
-
-https://jmcglone.com/img/guides/git-basics.png
-4
-You just built a full docs hosting pipeline like a pro.
-
-Tell me when the workflow finishes or if you see any red error — we’ll fix it fast 💪
-
-
-You said:
-inside my project folder? Local? GitHub?
-
-ChatGPT said:
-Yep — inside your project folder on your computer 👍 (the same folder that has mkdocs.yml).
-
-Think of it like this:
-
-Location	What happens there
-Your computer (local project folder)	You create files
-GitHub	Gets whatever you push
-GitHub Actions	Runs files that exist in the repo
-So you must create the workflow file locally, then push it.
-
-📁 Create this folder structure locally
-From your project root:
-
-mkdir -p .github/workflows
-Then create the file:
-
-nano .github/workflows/deploy.yml
-Paste the workflow I gave you.
-
-Save → exit.
-
-⬆️ Then upload it to GitHub
+```
 git add .
 git commit -m "Add GitHub Pages deployment workflow"
 git push
-Now GitHub will see the file and automatically run it.
 
-Quick mental model
-You → edit files locally → push → GitHub runs workflow → site updates 🌍
+```
 
-Once you push, go to your repo’s Actions tab — you should see a workflow starting. Tell me if it turns green or red ✅❌
+1. Turn on GitHub Pages to use GitHub Actions:
+Go to your repo, **Settings > Pages > Build and deployment > Source**, then select **GitHub Actions**.
 
+1. Open the **Actions** tab (top menu of the repo) to see the workflow running.  
 
-You said:
-kuroraiun@Daiv-001:~/projects/docker/python/mkdocs$ mkdir -p .github/workflows
-kuroraiun@Daiv-001:~/projects/docker/python/mkdocs$ nano .github/workflows/deploy.yml
-kuroraiun@Daiv-001:~/projects/docker/python/mkdocs$ git add .
-kuroraiun@Daiv-001:~/projects/docker/python/mkdocs$ git commit -m "Add GitHub Pages deployment workflow"
-[main b04c8f7] Add GitHub Pages deployment workflow
- 1 file changed, 29 insertions(+)
- create mode 100644 .github/workflows/deploy.yml
-
-ChatGPT said:
-Perfect ✅✅ — the workflow file is committed locally. Now do these last two steps:
-
-1) Push the commit to GitHub
-git push
-2) Enable Pages to use GitHub Actions
-On GitHub (in your repo):
-Settings → Pages → Source → GitHub Actions
-
-3) Watch the deploy run
-Go to the Actions tab in your repo — you should see the workflow running. When it turns green ✅, your site is live.
-
-Your site URL will be:
-If this is a normal repo:
+1. When it’s green ✅ your site is live at:
+```
 https://YOUR_USERNAME.github.io/YOUR_REPO/
+```
 
-(Once you tell me your repo name, I can write the exact URL.)
+If it’s red ❌, click the failed run:
 
-If your workflow fails
-The most common reason: you’re not using mkdocs-material but the workflow tries to install it.
-
-If you aren’t using it, change this line in .github/workflows/deploy.yml:
-
-- run: pip install mkdocs mkdocs-material
-to:
-
-- run: pip install mkdocs
-Run git push now and paste what it prints 👍
-
-
-You said:
-Uploaded image
-I selected **Settings**, then **Pages**. Then next?
-
-ChatGPT said:
-Nice, you’re on the exact right screen 👌
-
-Right now it still says “Deploy from a branch” — but we set things up to use GitHub Actions, not a branch.
-
-👉 Change ONE setting
-Under Build and deployment → Source
-
-Click the dropdown that says:
-
-Deploy from a branch
-
-Change it to:
-
-✅ GitHub Actions
-Then click Save.
-
-What happens next
-As soon as you switch that:
-
-GitHub sees your workflow file
-
-It starts running automatically
-
-Go to the Actions tab (top menu)
-
-You’ll see “Deploy MkDocs” running
-
-If it finishes with a green checkmark ✅ → your site is live.
-
-🌍 Your site address will be:
-https://YOUR_USERNAME.github.io/my-mkdocs-site/
-If you don’t see a workflow
-Tell me — that means the deploy.yml file isn’t in the right folder.
-
-But you’re like one click away from launch 🚀
-
-
-You said:
-Uploaded image
-Changed, but no the **Save** button.
-
-ChatGPT said:
-You’re good — there’s no Save button anymore because it already saved ✅
-
-In your screenshot, the blue banner at the top says “GitHub Pages source saved.” That’s confirmation.
-
-Now the next step is to run (or check) the workflow that deploys your MkDocs site.
-
-✅ Next step: go to the Actions tab
-Click Actions (top menu of the repo)
-
-Look for a workflow run (often named something like Deploy MkDocs or your workflow filename)
-
-If you see a run:
-Click it
-
-If it’s green ✅, your site is deployed.
-
-If it’s red ❌, open it and copy the error text here.
-
-🌍 Your site URL (based on what I can see)
-Your username looks like kuroraiun and repo is my-mkdocs-site, so it should be:
-
-https://kuroraiun.github.io/my-mkdocs-site/
-
-(If it 404s, it just means deployment hasn’t completed yet.)
-
-If Actions shows nothing running
-That usually means the workflow file isn’t on GitHub yet.
-
-Quick check from your terminal:
-
-git status
-git log --oneline -5
-git push
-And also confirm the file exists in the repo:
-
-Repo → Code tab → open .github/workflows/deploy.yml
-
-If it’s there, Actions should run.
-
-Reply with either:
-
-what you see under Actions, or
-
-a screenshot of the Actions page / any error output
-
-…and we’ll finish the last 1% 🚀
-
-
-You said:
-Uploaded image
-OK. I opened the **Actions** tab. Then next?
-
-ChatGPT said:
-Perfect — this tells us exactly what’s happening 👍
-
-Your workflow ran, but it failed ❌
-That’s normal on first deploy. We just need to see the error.
-
-👉 Click the failed run
-Click this:
-
+```
 “Add GitHub Pages deployment workflow” (the one with the red ❌)
+```
 
-👉 Then click the failed job
-You’ll see something like:
+Click the failed job:
 
+```
 build-deploy
-or
+```
 
-build
-Click that.
+Click the step that failed:
 
-👉 Then click the step that failed
-Common failing steps:
-
-Install dependencies
-
-Build site
-
-Deploy
-
-The failed step will have a red ❌ icon.
-
-Click it → scroll down → copy the error message.
-
-Most likely cause (very common)
-Your workflow installs:
-
-pip install mkdocs mkdocs-material
-If your project doesn’t use Material theme, MkDocs can fail depending on config.
-
-Or your mkdocs.yml has something like:
-
-theme:
-  name: material
-but mkdocs-material isn’t installed.
-
-💬 Send me:
-The red error text from the failed step.
-
-That tells us exactly what to fix.
-You’re not stuck — this is the final tuning step 🔧🚀
-
-
-You said:
-Uploaded image
-Click this one?
-
-ChatGPT said:
-Yes — click build-deploy 👈 (the box with the red ❌).
-That opens the job details where the real error message lives.
-
-Once inside:
-
-You’ll see a list of steps on the left like:
-
-Set up job
-
-Checkout
-
-Set up Python
-
-Install dependencies
-
-Build site
-
-Upload artifact
-
-Deploy
-
-The step with a red ❌ is the one that failed. Click it.
-
-Scroll down in that step and copy the red error text (the traceback or message).
-
-Right now we only see:
-
-Process completed with exit code 1
-
-That just means “something broke,” but not what. The detailed message is inside the failed step.
-
-Most likely it’ll be one of these:
-
-Missing theme (material)
-
-Plugin not installed
-
-Syntax error in mkdocs.yml
-
-But the exact text will tell us.
-
-👉 Click build-deploy → open the red step → paste the error here.
-We’ll fix it in one shot.
-
+```
+Run mkdocs build
+```
 
 You said:
 Uploaded image

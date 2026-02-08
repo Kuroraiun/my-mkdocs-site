@@ -10,11 +10,11 @@
 
 1. Press **Ctrl + Shift + X** to open the **Extensions** view, then search for **“WSL” by Microsoft**.
 
-    ![Screenshot](add-image-to-folder01.png)
+    ![Screenshot](images/add-image-to-folder01.png)
 
 2. Install the extension.
 
-    ![Screenshot](add-image-to-folder02.png)
+    ![Screenshot](images/add-image-to-folder02.png)
 
 3. Restart VS Code after installation.
 
@@ -24,11 +24,11 @@
 
 2. Select **Connect to WSL**.
 
-    ![Screenshot](add-image-to-folder03.png)
+    ![Screenshot](images/add-image-to-folder03.png)
 
 3. Check the following two indicators:
 
-    ![Screenshot](add-image-to-folder04.png)
+    ![Screenshot](images/add-image-to-folder04.png)
 
     * **Title bar:** `mkdocs [WSL: Ubuntu]`
     * **Bottom-left:** `WSL: Ubuntu`
@@ -53,7 +53,7 @@
 
 ## Step 4: Add the image to the folder
 
-1. To open the folder, run:
+1. Open the folder:
 
     ```bash
     code ~/projects/docker/python/mkdocs
