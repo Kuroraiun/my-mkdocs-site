@@ -13,11 +13,11 @@ The table will look something like this:
 |:-------:|:--------:|
 | You're not imagining it. | 君の気のせいじゃないよ。 |
 
-> Notes:
+!!! Tip
 
-* `:---` - Left aligned
-* `---:` - Right aligned
-* `:---:` - Centered
+    * `:---` - Left aligned
+    * `---:` - Right aligned
+    * `:---:` - Centered
 
 ## Escape the | (pipe) character 
 Use a backslash (or a yen mark):

@@ -34,7 +34,9 @@ nav_en: &nav_en
         - 01-apps/memoq/operations/update-address.md
     - OpenAI:
       - Operations:
+        - 01-apps/openai/operations/accept-free-offer.md
         - 01-apps/openai/operations/cancel-chatgpt.md
+        - 01-apps/openai/operations/update-billing-address.md
     - Perplexity:
       - Operations:
         - 01-apps/perprexity/operations/create-account.md
@@ -42,6 +44,7 @@ nav_en: &nav_en
     - UniConverter:
       - Operations:
         - 01-apps/uniconverter/operations/download-video.md
+        - 01-apps/uniconverter/operations/update-uniconverter.md
     - Windows:
       - Operations:
         - 01-apps/windows/operations/change-email.md

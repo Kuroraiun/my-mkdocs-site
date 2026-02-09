@@ -4,4 +4,4 @@
 
 1. Select **Permanently allow host 'wsl.localhost'**, then click **Allow**.
 
-    ![Screenshot](images/open-linux-folder01.png)
+    ![Screenshot](00-images/open-linux-folder01.png)
