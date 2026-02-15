@@ -43,9 +43,13 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
 1. In the project root folder in VS Code, run:
 
       ```bash
-      docker run --rm -it -p 8000:8000 -v "$(pwd)":
-      /mkdocs my-mkdocs mkdocs serve -a 0.0.0.0:8000
+      docker run --rm -it \
+        -p 8000:8000 \
+        -v "$(pwd)":/mkdocs \
+        my-mkdocs \
+        mkdocs serve -a 0.0.0.0:8000
       ```
+
     !!! Tip
         Make sure your Docker image `my-mkdocs` is already built.
 
@@ -62,7 +66,6 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
       ```bash
       git init
       git add .
-      git add mkdocs.yml
       git commit -m "Initial MkDocs site"
       git branch -M main
       git remote add origin https://github.com/YOUR_USERNAME/REPO_NAME.git
@@ -120,8 +123,14 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
 
             # Install the same plugins used locally
             # Prefer: pip install -r requirements.txt
-            - run: pip install mkdocs mkdocs-material 
-            mkdocs-static-i18n mkdocs-glightbox
+
+            - run: |
+                pip install \
+                  mkdocs \
+                  mkdocs-material \
+                  mkdocs-static-i18n \
+                  mkdocs-glightbox
+
             - run: mkdocs build
 
             - uses: actions/upload-pages-artifact@v3
