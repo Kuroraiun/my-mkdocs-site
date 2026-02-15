@@ -169,3 +169,7 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
       https://YOUR_USERNAME.github.io/REPO_NAME/
       ```
 
+    !!! Note
+        Changes are published after the GitHub Actions workflow completes.  
+        If updates do not appear immediately, wait for the green ✅ in **Actions**
+        and refresh the page.
