@@ -18,7 +18,7 @@ Mixing both methods can cause confusion.
 
 ---
 
-## When Should You Use `gh-deploy`?
+## When should you use `gh-deploy`?
 
 Use this method if:
 
@@ -29,7 +29,7 @@ Use this method if:
 
 ---
 
-## How It Works
+## How it works
 
 When you run:
 
@@ -46,7 +46,7 @@ MkDocs will:
 
 ---
 
-## Setup Requirements
+## Setup requirements
 
 1. GitHub Pages must be configured to use:
 
@@ -67,7 +67,7 @@ MkDocs will:
 
 ---
 
-## Deploy the Site
+## Deploy the site
 
 From the project root (where `mkdocs.yml` exists), run:
 
@@ -83,7 +83,7 @@ mkdocs gh-deploy --clean
 
 ---
 
-## Updating the Site
+## Updating the site
 
 After modifying your documentation:
 
@@ -104,7 +104,7 @@ because `gh-deploy` handles the deployment branch automatically.
 
 ---
 
-## How This Differs from GitHub Actions
+## How this differs from GitHub Actions
 
 | GitHub Actions              | `mkdocs gh-deploy`     |
 | --------------------------- | ---------------------- |
@@ -115,7 +115,7 @@ because `gh-deploy` handles the deployment branch automatically.
 
 ---
 
-## Deployment Timing
+## Deployment timing
 
 After running `mkdocs gh-deploy`, it may take 20–60 seconds for the site to update.  
 If changes do not appear immediately, refresh the page.

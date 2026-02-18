@@ -45,6 +45,11 @@ nav_en: &nav_en
       - Operations:
         - 01-apps/uniconverter/operations/download-video.md
         - 01-apps/uniconverter/operations/update-uniconverter.md
+    - Unreal Engine:
+      - Operations:
+        - 01-apps/unrealengine/operations/delete-project/delete-project.md
+        - 01-apps/unrealengine/operations/navigate-viewport.md
+        - 01-apps/unrealengine/operations/reset-viewport-view.md
     - Windows:
       - Operations:
         - 01-apps/windows/operations/change-email.md
@@ -56,6 +61,9 @@ nav_en: &nav_en
       - Troubleshooting:
         - 02-dev/git/troubleshooting/fix-default-blanch-name.md
         - 02-dev/git/troubleshooting/fix-author-unknown.md
+    - GitHub:
+      - Operations:
+        - 02-dev/github/operations/change-repo-name.md
     - Docker:
       - Operations:
         - 02-dev/docker/operations/disable-scout-notifications.md
@@ -70,10 +78,12 @@ nav_en: &nav_en
         - 02-dev/mkdocs/operations/add-table.md
         - 02-dev/mkdocs/operations/confirm-css.md
         - 02-dev/mkdocs/operations/create-bilingual-site.md
+        - 02-dev/mkdocs/operations/create-tab-open-link.md
         - 02-dev/mkdocs/operations/gh-deploy.md
         - 02-dev/mkdocs/operations/publish-github.md
         - 02-dev/mkdocs/operations/publish-docker-github-site.md
         - 02-dev/mkdocs/operations/update-docker-github-site.md
+        - 02-dev/mkdocs/operations/view-deploy-error.md
       - Troubleshooting:
         - 02-dev/mkdocs/troubleshooting/get-http.md
         - 02-dev/mkdocs/troubleshooting/get-sitemap.md
@@ -85,8 +95,10 @@ nav_en: &nav_en
       - Operations:
         - 02-dev/vscode/operations/add-image-to-doc.md
         - 02-dev/vscode/operations/add-image-to-folder.md
+        - 02-dev/vscode/operations/add-multiple-images.md
         - 02-dev/vscode/operations/connect-github.md
         - 02-dev/vscode/operations/copy-win-to-linux.md
+        - 02-dev/vscode/operations/install-github-actions.md
         - 02-dev/vscode/operations/open-linux-folder.md
         - 02-dev/vscode/operations/open-ubuntu.md
         - 02-dev/vscode/operations/preview-markdown.md
@@ -94,6 +106,9 @@ nav_en: &nav_en
     - Simplenote:
       - Operations:
         - 03-phone/simplenote/operations/introduce-simplenote.md
+  - Photo Gallery:
+    - Rooms: 
+      - Room 01: 05-photos/rooms/room01.md
 
 # Japanese Navigation
 nav_ja: &nav_ja

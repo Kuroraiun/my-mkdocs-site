@@ -1,4 +1,4 @@
-# Docker Run Command Guide (MkDocs Example)
+# Docker run command guide (MkDocs example)
 
 This guide explains the meaning of the following Docker command and how image names like `mkdocs-dev` and `my-mkdocs` affect behavior.
 
@@ -8,7 +8,7 @@ docker run --rm -it -p 8000:8000 -v $(pwd):/mkdocs mkdocs-dev
 
 ---
 
-## 1. Basic Structure of docker run
+## 1. Basic structure of docker run
 
 General syntax:
 
@@ -33,7 +33,7 @@ Components:
 
 ---
 
-## 2. Explanation of Each Option
+## 2. Explanation of each option
 
 ## --rm
 
@@ -168,7 +168,7 @@ Changes update instantly.
 
 ---
 
-## 3. The Image Name (IMPORTANT PART)
+## 3. Image name
 
 Final part of command:
 
@@ -238,7 +238,7 @@ MkDocs + Material theme + plugins
 
 ---
 
-## 5. Visual Diagram
+## 5. Visual diagram
 
 ```
 Your Computer
@@ -262,7 +262,7 @@ localhost:8000 on your computer
 
 ---
 
-## 6. Real Example Workflow
+## 6. Real example workflow
 
 Step 1: Build image
 
@@ -284,7 +284,7 @@ http://localhost:8000
 
 ---
 
-## 7. Summary Table
+## 7. Summary table
 
 | Part                   | Meaning                     |
 | ---------------------- | --------------------------- |
@@ -297,7 +297,7 @@ http://localhost:8000
 
 ---
 
-## 8. Key Concept Summary
+## 8. Key concept summary
 
 Docker image = Environment
 
@@ -335,6 +335,3 @@ Ctrl + C
 
 Container is removed automatically because of `--rm`.
 
----
-
-## End of Guide
