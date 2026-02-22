@@ -20,7 +20,7 @@ theme:
 nav_en: &nav_en
   - Home: index.md
   - App Notes:
-    - Any apps:
+    - Utilities:
       - Operations:
         - 01-apps/00-apps/operations/change-fileextensions.md
         - 01-apps/00-apps/operations/create-window-layout.md
