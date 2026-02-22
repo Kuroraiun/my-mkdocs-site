@@ -39,6 +39,9 @@ nav_en: &nav_en
     - memoQ:
       - Operations:
         - 01-apps/memoq/operations/update-address.md
+    - Obsidian:
+      - Operations:
+        - 01-apps/obsidian/operations/import-onenote.md
     - OpenAI:
       - Operations:
         - 01-apps/openai/operations/accept-free-offer.md
