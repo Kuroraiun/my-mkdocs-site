@@ -117,7 +117,7 @@ nav_en: &nav_en
         - 02-dev/vscode/operations/open-linux-folder.md
         - 02-dev/vscode/operations/open-ubuntu.md
         - 02-dev/vscode/operations/preview-markdown.md
-  - Phone Notes:
+  - Mobile Notes:
     - Simplenote:
       - Operations:
         - 03-phone/simplenote/operations/introduce-simplenote.md
