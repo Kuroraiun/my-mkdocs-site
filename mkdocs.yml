@@ -108,15 +108,16 @@ nav_en: &nav_en
         - 02-dev/mkdocs/reference/packages.md
     - VS Code:
       - Operations:
-        - 02-dev/vscode/operations/add-image-to-doc.md
-        - 02-dev/vscode/operations/add-image-to-folder.md
-        - 02-dev/vscode/operations/add-multiple-images.md
-        - 02-dev/vscode/operations/connect-github.md
-        - 02-dev/vscode/operations/copy-win-to-linux.md
-        - 02-dev/vscode/operations/install-github-actions.md
-        - 02-dev/vscode/operations/open-linux-folder.md
-        - 02-dev/vscode/operations/open-ubuntu.md
-        - 02-dev/vscode/operations/preview-markdown.md
+        - 02-dev/vs-code/operations/add-image-to-doc.md
+        - 02-dev/vs-code/operations/add-image-to-folder.md
+        - 02-dev/vs-code/operations/add-multiple-images.md
+        - 02-dev/vs-code/operations/connect-github.md
+        - 02-dev/vs-code/operations/copy-win-to-linux.md
+        - 02-dev/vs-code/operations/install-github-actions.md
+        - 02-dev/vs-code/operations/open-linux-folder.md
+        - 02-dev/vs-code/operations/open-ubuntu.md
+        - 02-dev/vs-code/operations/preview-markdown.md
+        - 02-dev/vs-code/operations/remove-tab-identation.md
   - Mobile Notes:
     - Simplenote:
       - Operations:
