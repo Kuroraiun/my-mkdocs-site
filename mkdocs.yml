@@ -131,6 +131,7 @@ nav_en: &nav_en
         - 02-dev/vs-code/operations/cancel-command.md
         - 02-dev/vs-code/operations/connect-github.md
         - 02-dev/vs-code/operations/copy-win-to-linux.md
+        - 02-dev/vs-code/operations/move-files-linux.md
         - 02-dev/vs-code/operations/install-github-actions.md
         - 02-dev/vs-code/operations/open-linux-folder.md
         - 02-dev/vs-code/operations/open-ubuntu.md
