@@ -106,6 +106,7 @@ nav_en: &nav_en
         - 02-dev/mkdocs/operations/create-tab-open-link.md
         - 02-dev/mkdocs/operations/gh-deploy.md
         - 02-dev/mkdocs/operations/navigate-to-repo-root.md
+        - 02-dev/mkdocs/operations/open-link-in-new-tab.md
         - 02-dev/mkdocs/operations/publish-github.md
         - 02-dev/mkdocs/operations/publish-docker-github-site.md
         - 02-dev/mkdocs/operations/update-docker-github-site.md
@@ -125,6 +126,7 @@ nav_en: &nav_en
         - 02-dev/vs-code/operations/add-image-to-doc.md
         - 02-dev/vs-code/operations/add-image-to-folder.md
         - 02-dev/vs-code/operations/add-multiple-images.md
+        - 02-dev/vs-code/operations/cancel-command.md
         - 02-dev/vs-code/operations/connect-github.md
         - 02-dev/vs-code/operations/copy-win-to-linux.md
         - 02-dev/vs-code/operations/install-github-actions.md
