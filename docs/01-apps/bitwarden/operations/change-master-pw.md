@@ -1,6 +1,6 @@
 # Change master password
 
-Change your Bitwarden master password from the Help Center.
+Change your Bitwarden master password.
 
 ## Steps
 
