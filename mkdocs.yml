@@ -95,6 +95,7 @@ nav_en: &nav_en
         - 02-dev/linux/operations/move-file-with-mv.md
         - 02-dev/linux/operations/open-folder-with-explorer.md
         - 02-dev/linux/operations/open-md-file-with-code.md
+        - 02-dev/linux/operations/open-wsl-folder-windows.md
         - 02-dev/linux/operations/use-nano-editor.md
     - MkDocs:
       - Operations:
@@ -116,6 +117,9 @@ nav_en: &nav_en
       - Reference:
         - 02-dev/mkdocs/reference/docker-run-command.md
         - 02-dev/mkdocs/reference/packages.md
+    - Notepad++:
+      - Operations:
+        - 02-dev/notepad-pp/operations/comment-out.md
     - VS Code:
       - Operations:
         - 02-dev/vs-code/operations/add-image-to-doc.md
