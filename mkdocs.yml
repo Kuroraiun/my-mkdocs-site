@@ -24,6 +24,10 @@ nav_en: &nav_en
       - Operations:
         - 01-apps/00-apps/operations/change-fileextensions.md
         - 01-apps/00-apps/operations/create-window-layout.md
+    - Bitwarden:
+      - Operations:
+        - 01-apps/bitwarden/operations/change-master-pw.md
+        - 01-apps/bitwarden/operations/introduce-bitwarden.md
     - Blender:
       - Operations:
         - 01-apps/blender/operation/render-slideshow.md
@@ -88,6 +92,9 @@ nav_en: &nav_en
     - Linux:
       - Operations:
         - 02-dev/linux/operations/create-folder.md
+        - 02-dev/linux/operations/move-file-with-mv.md
+        - 02-dev/linux/operations/open-folder-with-explorer.md
+        - 02-dev/linux/operations/open-md-file-with-code.md
         - 02-dev/linux/operations/use-nano-editor.md
     - MkDocs:
       - Operations:
