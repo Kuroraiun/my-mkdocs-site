@@ -9,8 +9,8 @@ Create the required directory structure for documentation files.
 2. Run:
 
     Example:
-    
-    ```"
+
+    ```
     mkdir -p docs/en/01-apps/obsidian/operations
     ```
 
