@@ -30,7 +30,7 @@ nav_en: &nav_en
         - 01-apps/bitwarden/operations/introduce-bitwarden.md
     - Blender:
       - Operations:
-        - 01-apps/blender/operation/render-slideshow.md
+        - 01-apps/blender/operations/render-slideshow.md
     - GIMP:
       - Operations:
         - 01-apps/gimp/operations/convert-crw-to-png.md
@@ -78,6 +78,8 @@ nav_en: &nav_en
         - 01-apps/windows/operations/take-screenshot.md
   - Dev Notes:
     - Git:
+      - Operations:
+        - 02-dev/git/operations/restore-files.md
       - Troubleshooting:
         - 02-dev/git/troubleshooting/fix-default-blanch-name.md
         - 02-dev/git/troubleshooting/fix-author-unknown.md
@@ -166,8 +168,6 @@ nav_ja: &nav_ja
     - Linux:
       - 02-dev/linux/fix-execformaterror.md
       - 02-dev/linux/open-ubuntu.md
-    - MkDocs:
-      - 02-dev/mkdocs/create-bi-web.md
     - Xserver:
       - 02-dev/xserver/manage-service.md
   - ビジネスメモ:
