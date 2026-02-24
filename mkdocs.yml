@@ -90,7 +90,8 @@ nav_en: &nav_en
       - Operations:
         - 02-dev/docker/operations/disable-scout-notifications.md
       - Troubleshooting:
-        - 02-dev/docker/troubleshooting/troubleshoot01.md
+        - 02-dev/docker/troubleshooting/fix-api-connection.md
+        - 02-dev/docker/troubleshooting/fix-wsl-integration-stopped.md
     - Linux:
       - Operations:
         - 02-dev/linux/operations/create-folder.md
@@ -102,6 +103,7 @@ nav_en: &nav_en
     - MkDocs:
       - Operations:
         - 02-dev/mkdocs/operations/add-copyrightfooter.md
+        - 02-dev/mkdocs/operations/add-indentation.md
         - 02-dev/mkdocs/operations/add-table.md
         - 02-dev/mkdocs/operations/confirm-css.md
         - 02-dev/mkdocs/operations/create-bilingual-site.md
