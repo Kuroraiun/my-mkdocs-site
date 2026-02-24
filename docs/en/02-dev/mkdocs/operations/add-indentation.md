@@ -19,7 +19,7 @@ Use consistent indentation:
 * Screenshots:
 
 ```
-[tab][Screenshot](image.png)
+[tab]![Screenshot](image.png)
 ```
 
 or
