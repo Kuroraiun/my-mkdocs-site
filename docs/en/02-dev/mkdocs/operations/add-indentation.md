@@ -1,4 +1,4 @@
-# Add indentation in instruction steps in Material for MkDocs
+# Add indentation in instruction steps in MkDocs Material
 
 Indent content correctly inside numbered steps when using Material for MkDocs.
 
