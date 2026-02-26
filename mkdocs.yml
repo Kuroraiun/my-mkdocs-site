@@ -39,6 +39,7 @@ nav_en: &nav_en
         - 01-apps/google-chrome/open-new-google-page.md
     - Google Drive:
       - Operations:
+        - 01-apps/google-drive/operations/change-folder-access-role.md
         - 01-apps/google-drive/operations/edit-with-notepad-pp.md
     - memoQ:
       - Operations:
@@ -61,15 +62,17 @@ nav_en: &nav_en
         - 01-apps/uniconverter/operations/update-uniconverter.md
     - Unreal Engine:
       - Operations:
-        - 01-apps/unrealengine/operations/change-camera-speed.md
-        - 01-apps/unrealengine/operations/create-project.md
-        - 01-apps/unrealengine/operations/delete-project.md
-        - 01-apps/unrealengine/operations/focus-object.md
-        - 01-apps/unrealengine/operations/move-third-person-actor.md
-        - 01-apps/unrealengine/operations/navigate-viewport.md
-        - 01-apps/unrealengine/operations/orbit-around-object.md
-        - 01-apps/unrealengine/operations/reset-viewport-view.md
-        - 01-apps/unrealengine/operations/zoom.md
+        - 01-apps/unreal-engine/operations/change-camera-speed.md
+        - 01-apps/unreal-engine/operations/create-project.md
+        - 01-apps/unreal-engine/operations/create-video-project.md
+        - 01-apps/unreal-engine/operations/delete-project.md
+        - 01-apps/unreal-engine/operations/focus-object.md
+        - 01-apps/unreal-engine/operations/install-old-ver.md
+        - 01-apps/unreal-engine/operations/move-third-person-actor.md
+        - 01-apps/unreal-engine/operations/navigate-viewport.md
+        - 01-apps/unreal-engine/operations/orbit-around-object.md
+        - 01-apps/unreal-engine/operations/reset-viewport-view.md
+        - 01-apps/unreal-engine/operations/zoom.md
     - Windows:
       - Operations:
         - 01-apps/windows/operations/change-email.md
@@ -94,6 +97,7 @@ nav_en: &nav_en
         - 02-dev/docker/troubleshooting/fix-wsl-integration-stopped.md
     - Linux:
       - Operations:
+        - 02-dev/linux/operations/create-file.md
         - 02-dev/linux/operations/create-folder.md
         - 02-dev/linux/operations/move-file-with-mv.md
         - 02-dev/linux/operations/open-folder-with-explorer.md

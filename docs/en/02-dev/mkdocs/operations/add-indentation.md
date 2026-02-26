@@ -1,62 +1,57 @@
-# Add indentation in instruction steps in MkDocs Material
+# Add indentation in instruction steps
 
-Indent content correctly inside numbered steps when using Material for MkDocs.
+Indent nested content correctly inside numbered steps.
 
 ## Steps
 
 1. Write the numbered step.
 
-2. Add indentation using the **Tab** key (and spaces in some cases).
+2. Indent nested content so it belongs to the step.
 
 3. Insert the content under the step.
 
+   ```
     ![Screenshot](add-indentation-01.png)
+   ```
 
-## Note
+## Indentation rules
 
-Use consistent indentation:
+Use consistent indentation markers when documenting structure.
 
-* Screenshots:
+### Screenshots
 
-```
-[tab]![Screenshot](image.png)
-```
-
-or
-
-```
+```text
 [tab][tab]![Screenshot](image.png)
 ```
 
-* URLs:
+### URLs
 
-```
-[tab]https://example.com
-```
-
-or
-
-```
+```text
 [tab][tab]https://example.com
 ```
 
-* Code blocks:
+### Code blocks
 
-````
+````text
 [tab]```bash
 [tab]command
 [tab]```
 ````
 
-* Admonitions:
+### Admonitions
 
-```
-[tab][space]!!! Note  
+```text
+[tab][space]!!! note
 [tab][tab][space]Content
 ```
 
-* Text:
+### Additional text
 
-```
+```text
 [tab][space][space]Additional explanation text
 ```
+
+## Note
+
+Incorrect indentation causes content to render outside the numbered list.
+Always verify list structure after adding code blocks, images, URLs, or admonitions.
