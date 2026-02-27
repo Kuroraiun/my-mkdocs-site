@@ -25,6 +25,7 @@ nav_en: &nav_en
         - 01-apps/00-apps/operations/change-file-extensions.md
         - 01-apps/00-apps/operations/convert-png-to-webp.md
         - 01-apps/00-apps/operations/create-window-layout.md
+        - 01-apps/00-apps/operations/resize-images.md
     - Bitwarden:
       - Operations:
         - 01-apps/bitwarden/operations/change-master-pw.md
