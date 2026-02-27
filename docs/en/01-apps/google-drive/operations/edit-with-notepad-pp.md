@@ -10,33 +10,33 @@ Install Google Drive for desktop, access Drive files from File Explorer, and edi
 
 1. Open the Google Drive for desktop download page.
 
-    ![Screenshot](edit-wit-notepad-pp-01.png)
+    ![Screenshot](edit-with-notepad-pp-01.png)
 
 2. Click **Download for Windows**.
 
-    ![Screenshot](edit-wit-notepad-pp-02.png)
+    ![Screenshot](edit-with-notepad-pp-02.png)
 
 3. Run the installer.
 
 4. In the installer window, click **Install**.
 
-    ![Screenshot](edit-wit-notepad-pp-03.png)
+    ![Screenshot](edit-with-notepad-pp-03.png)
 
 5. Click **Sign in**.
 
-    ![Screenshot](edit-wit-notepad-pp-04.png)
+    ![Screenshot](edit-with-notepad-pp-04.png)
 
 6. Select folders to sync.
 
-    ![Screenshot](edit-wit-notepad-pp-05.png)
+    ![Screenshot](edit-with-notepad-pp-05.png)
 
 7. Click **Skip** to disable optional backups.
 
-    ![Sceenshot](edit-wit-notepad-pp-06.png)
+    ![Sceenshot](edit-with-notepad-pp-06.png)
 
 8. Click **Open Drive**.
 
-    ![Screenshot](edit-wit-notepad-pp-07.png)
+    ![Screenshot](edit-with-notepad-pp-07.png)
 
 ---
 
@@ -46,11 +46,11 @@ Install Google Drive for desktop, access Drive files from File Explorer, and edi
 
 2. Click **Google Drive (G:)**, then **My Drive**.
 
-    ![Screenshot](edit-wit-notpad-pp-09.png)
+    ![Screenshot](edit-with-notepad-pp-08.png)
 
 3. Navigate to the folder containing your `.md` file.
 
-    ![Screenshot](edit-wit-notpad-pp-10.png)
+    ![Screenshot](edit-with-notepad-pp-09.png)
 
 ---
 
