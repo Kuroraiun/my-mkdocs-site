@@ -22,7 +22,8 @@ nav_en: &nav_en
   - App Notes:
     - Utilities:
       - Operations:
-        - 01-apps/00-apps/operations/change-fileextensions.md
+        - 01-apps/00-apps/operations/change-file-extensions.md
+        - 01-apps/00-apps/operations/convert-png-to-webp.md
         - 01-apps/00-apps/operations/create-window-layout.md
     - Bitwarden:
       - Operations:
