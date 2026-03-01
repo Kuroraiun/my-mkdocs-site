@@ -33,6 +33,10 @@ nav_en: &nav_en
     - Blender:
       - Operations:
         - 01-apps/blender/operations/render-slideshow.md
+    - Eijiro:
+      - Operations:
+        - 01-apps/eijiro/operations/check-accout-info.md
+        - 01-apps/eijiro/operations/delete-account.md
     - GIMP:
       - Operations:
         - 01-apps/gimp/operations/convert-crw-to-png.md
