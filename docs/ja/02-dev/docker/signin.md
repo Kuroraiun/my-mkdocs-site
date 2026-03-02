@@ -2,7 +2,7 @@
 ## まとめ
 サインイン画面で**Personal**を選択する。  
 （※デフォルトでは**Work**が選択されているので要注意。）
-![screenshot](images/signin01.png)
+![Screenshot](signin-01.png)
 
 ## 補足
 Docker Desktopを使用したいだけなら、登録しなくても大丈夫。  

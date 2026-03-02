@@ -4,5 +4,3 @@
 詳細は以下のとおり。
 
 料金プラン（公式サイト）: https://www.docker.com/ja-jp/pricing/
-
----

@@ -22,5 +22,3 @@ cannot execute binary file: Exec format error
     wsl --shutdown
     ```
 1. VS Codeを再起動する。
-
----

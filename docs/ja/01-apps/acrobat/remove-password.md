@@ -15,11 +15,9 @@
 
 ## 手順
 1. **Menu** > **Print**をクリックする。
-![screenshot](remove-pssword01.png)
+![Screenshot](remove-password-01.png)
 
 1. **Microsoft Print to PDF**を選択し、**Print**をクリックする。
-![screenshot](remove-pssword02.png)
+![Screenshot](remove-password-02.png)
 
 1. 新規PDFに名前を付けて保存する。
-
-以上

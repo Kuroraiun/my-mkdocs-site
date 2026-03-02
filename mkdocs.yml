@@ -174,7 +174,7 @@ nav_ja: &nav_ja
     - Claude:
       - 01-apps/claude/login.md
     - Notepad++:
-      - 01-apps/notepadpp/troubleshooting/protect-yourself.md
+      - 01-apps/notepad-pp/troubleshooting/protect-yourself.md
     - Outlook:
       - 01-apps/outlook/disable-forwarding.md
   - 開発メモ:
@@ -183,22 +183,27 @@ nav_ja: &nav_ja
       - 02-dev/docker/pricing.md
       - 02-dev/docker/signin.md
     - Linux:
-      - 02-dev/linux/fix-execformaterror.md
+      - 02-dev/linux/fix-exec-format-error.md
       - 02-dev/linux/open-ubuntu.md
     - Xserver:
       - 02-dev/xserver/manage-service.md
-  - ビジネスメモ:
-    - 03-business/mynumber/use-mynumberhealthcard.md
-  - 言語メモ:
-    - 04-languages/sentences.md
+  - モバイルメモ:
+    - Google Maps:
+      - mobiles/mobile-icoca/google-maps/explore-on-foot.md
+    - モバイルICOCA:
+      - mobiles/mobile-icoca/overview.md
   - 製品メモ:
     - Sharp:
       - 冷蔵庫SJ-X415H-S:
-        - 05-products/sharp/refrigerator/refrigerator-notes.md
+        - products/sharp/refrigerator/refrigerator-notes.md
     - Torras:
       - モバイルバッテリーPB4A:
-        - 05-products/torras/turnon-charger.md
-        - 05-products/torras/use-lowcurrentmode.md
+        - products/torras/turn-on-charger.md
+        - products/torras/use-low-current-mode.md
+  - 言語メモ:
+    - languages/sentences.md
+  - ビジネスメモ:
+    - business/my-number/use-my-number-health-card.md
 
 plugins:
   - i18n:
