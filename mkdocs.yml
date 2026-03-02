@@ -153,6 +153,7 @@ nav_en: &nav_en
         - 02-dev/vs-code/operations/open-ubuntu.md
         - 02-dev/vs-code/operations/preview-markdown.md
         - 02-dev/vs-code/operations/remove-tab-identation.md
+        - 02-dev/vs-code/operations/replace-image.md
   - Mobile Notes:
     - Simplenote:
       - Operations:
