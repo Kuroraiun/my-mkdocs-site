@@ -167,27 +167,27 @@ nav_ja: &nav_ja
   - ホーム: index.md
   - アプリメモ:
     - Acrobat:
-      - 01-apps/acrobat/remove-password.md
+      - apps/acrobat/remove-password.md
     - BitLocker:
-      - 01-apps/bitlocker/unlock.md
+      - apps/bitlocker/unlock.md
     - ChatGPT:
-      - 01-apps/chatgpt/convert-chat-to-word.md
+      - apps/chatgpt/convert-chat-to-word.md
     - Claude:
-      - 01-apps/claude/login.md
+      - apps/claude/login.md
     - Notepad++:
-      - 01-apps/notepad-pp/troubleshooting/protect-yourself.md
+      - apps/notepad-pp/troubleshooting/protect-yourself.md
     - Outlook:
-      - 01-apps/outlook/disable-forwarding.md
+      - apps/outlook/disable-forwarding.md
   - 開発メモ:
     - Docker:
-      - 02-dev/docker/introduce.md
-      - 02-dev/docker/pricing.md
-      - 02-dev/docker/signin.md
+      - dev/docker/introduce.md
+      - dev/docker/pricing.md
+      - dev/docker/signin.md
     - Linux:
-      - 02-dev/linux/fix-exec-format-error.md
-      - 02-dev/linux/open-ubuntu.md
+      - dev/linux/fix-exec-format-error.md
+      - dev/linux/open-ubuntu.md
     - Xserver:
-      - 02-dev/xserver/manage-service.md
+      - dev/xserver/manage-service.md
   - モバイルメモ:
     - Google Maps:
       - mobiles/google-maps/explore-on-foot.md
