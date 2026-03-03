@@ -5,6 +5,7 @@ copyright: © 2026 Bitbyzen. All rights reserved.
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   features:
     - navigation.tabs
@@ -244,6 +245,9 @@ extra:
     - name: JA
       link: /kb/ja/
       lang: ja
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - pymdownx.superfences

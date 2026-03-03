@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  {% set is_home = page.file.src_path.endswith("index.md") %}
+
+  {% if page.meta.git_revision_date_localized and not is_home %}
+    <div class="page-date">
+      {% if config.theme.language == "ja" %}
+        最終更新日: {{ page.meta.git_revision_date_localized }}
+      {% else %}
+        Last updated: {{ page.meta.git_revision_date_localized }}
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {{ super() }}
+
+{% endblock %}
