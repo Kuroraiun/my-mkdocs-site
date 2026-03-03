@@ -166,6 +166,8 @@ nav_en: &nav_en
 nav_ja: &nav_ja
   - ホーム: index.md
   - アプリメモ:
+    - Utilities:
+      - apps/00-utilities/split-audio.md
     - Acrobat:
       - apps/acrobat/remove-password.md
     - BitLocker:
