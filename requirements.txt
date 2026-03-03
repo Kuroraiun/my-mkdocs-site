@@ -1,7 +1,8 @@
-mkdocs
+mkdocs<2
 mkdocs-material
 mkdocs-awesome-pages-plugin
 mkdocs-glightbox
 mkdocs-static-i18n
 mkdocs-literate-nav
 watchdog
+mkdocs-git-revision-date-localized-plugin

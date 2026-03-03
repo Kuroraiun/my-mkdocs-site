@@ -225,6 +225,13 @@ plugins:
           theme:
             language: ja
           nav: *nav_ja
+
+  - git-revision-date-localized:
+      type: date
+      timezone: Asia/Tokyo
+      custom_format: "%Y-%m-%d"
+      fallback_to_build_date: true
+
   - search
   - glightbox
 
