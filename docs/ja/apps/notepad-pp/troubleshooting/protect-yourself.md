@@ -1,7 +1,5 @@
 # ハイジャック問題を解決する方法
 
-`2026-02-02`  
-
 Notepad++のアップデーターがハイジャックされたらしい。  
 https://www.itmedia.co.jp/news/articles/2602/06/news033.html
 
