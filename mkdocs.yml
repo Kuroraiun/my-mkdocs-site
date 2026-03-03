@@ -101,6 +101,7 @@ nav_en: &nav_en
     - Docker:
       - Operations:
         - 02-dev/docker/operations/disable-scout-notifications.md
+        - 02-dev/docker/operations/install-with-pip.md
       - Troubleshooting:
         - 02-dev/docker/troubleshooting/fix-api-connection.md
         - 02-dev/docker/troubleshooting/fix-wsl-integration-stopped.md
@@ -122,11 +123,13 @@ nav_en: &nav_en
         - 02-dev/mkdocs/operations/add-table.md
         - 02-dev/mkdocs/operations/confirm-css.md
         - 02-dev/mkdocs/operations/create-bilingual-site.md
-        - 02-dev/mkdocs/operations/create-tab-open-link.md
+        - 02-dev/mkdocs/operations/create-link-open-in-new-tab.md
         - 02-dev/mkdocs/operations/gh-deploy.md
-        - 02-dev/mkdocs/operations/open-link-in-new-tab.md
+        - 02-dev/mkdocs/operations/display-date-at-bottom.md
+        - 02-dev/mkdocs/operations/display-date-at-top.md
         - 02-dev/mkdocs/operations/publish-github.md
         - 02-dev/mkdocs/operations/publish-docker-github-site.md
+        - 02-dev/mkdocs/operations/rebuid-mkdocs-docker-image.md
         - 02-dev/mkdocs/operations/update-docker-github-site.md
         - 02-dev/mkdocs/operations/view-deploy-error.md
       - Troubleshooting:
