@@ -109,6 +109,7 @@ nav_en: &nav_en
         - 02-dev/linux/operations/create-folder.md
         - 02-dev/linux/operations/create-open-file-vs-code.md
         - 02-dev/linux/operations/move-file-with-mv.md
+        - 02-dev/linux/operations/navigate-to-repo-root.md
         - 02-dev/linux/operations/open-folder-with-explorer.md
         - 02-dev/linux/operations/open-md-file-with-code.md
         - 02-dev/linux/operations/open-wsl-folder-windows.md
@@ -122,7 +123,6 @@ nav_en: &nav_en
         - 02-dev/mkdocs/operations/create-bilingual-site.md
         - 02-dev/mkdocs/operations/create-tab-open-link.md
         - 02-dev/mkdocs/operations/gh-deploy.md
-        - 02-dev/mkdocs/operations/navigate-to-repo-root.md
         - 02-dev/mkdocs/operations/open-link-in-new-tab.md
         - 02-dev/mkdocs/operations/publish-github.md
         - 02-dev/mkdocs/operations/publish-docker-github-site.md
