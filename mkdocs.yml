@@ -213,7 +213,10 @@ nav_ja: &nav_ja
   - 言語メモ:
     - languages/sentences.md
   - ビジネスメモ:
-    - business/my-number/use-my-number-health-card.md
+    - マイナンバー:
+      - business/my-number/use-my-number-health-card.md
+    - マイナポータル:
+      - business/myna-portal/log-in-with-pc.md
 
 plugins:
   - i18n:
