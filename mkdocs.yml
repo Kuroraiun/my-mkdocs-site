@@ -23,148 +23,148 @@ nav_en: &nav_en
   - App Notes:
     - Utilities:
       - Operations:
-        - 01-apps/00-apps/operations/change-file-extensions.md
-        - 01-apps/00-apps/operations/convert-png-to-webp.md
-        - 01-apps/00-apps/operations/create-window-layout.md
-        - 01-apps/00-apps/operations/resize-images.md
+        - apps/utilities/operations/change-file-extensions.md
+        - apps/utilities/operations/convert-png-to-webp.md
+        - apps/utilities/operations/create-window-layout.md
+        - apps/utilities/operations/resize-images.md
     - Bitwarden:
       - Operations:
-        - 01-apps/bitwarden/operations/change-master-pw.md
-        - 01-apps/bitwarden/operations/introduce-bitwarden.md
+        - apps/bitwarden/operations/change-master-pw.md
+        - apps/bitwarden/operations/introduce-bitwarden.md
     - Blender:
       - Operations:
-        - 01-apps/blender/operations/render-slideshow.md
+        - apps/blender/operations/render-slideshow.md
     - Eijiro:
       - Operations:
-        - 01-apps/eijiro/operations/check-accout-info.md
-        - 01-apps/eijiro/operations/delete-account.md
+        - apps/eijiro/operations/check-accout-info.md
+        - apps/eijiro/operations/delete-account.md
     - GIMP:
       - Operations:
-        - 01-apps/gimp/operations/convert-crw-to-png.md
-        - 01-apps/gimp/operations/install-gimp.md
-        - 01-apps/gimp/operations/update-gimp.md
+        - apps/gimp/operations/convert-crw-to-png.md
+        - apps/gimp/operations/install-gimp.md
+        - apps/gimp/operations/update-gimp.md
     - Google Chrome:
       - Operations:
-        - 01-apps/google-chrome/open-new-google-page.md
+        - apps/google-chrome/open-new-google-page.md
     - Google Drive:
       - Operations:
-        - 01-apps/google-drive/operations/change-folder-access-role.md
-        - 01-apps/google-drive/operations/edit-with-notepad-pp.md
+        - apps/google-drive/operations/change-folder-access-role.md
+        - apps/google-drive/operations/edit-with-notepad-pp.md
     - memoQ:
       - Operations:
-        - 01-apps/memoq/operations/update-address.md
+        - apps/memoq/operations/update-address.md
     - Obsidian:
       - Operations:
-        - 01-apps/obsidian/operations/import-onenote.md
+        - apps/obsidian/operations/import-onenote.md
     - OpenAI:
       - Operations:
-        - 01-apps/openai/operations/accept-free-offer.md
-        - 01-apps/openai/operations/cancel-chatgpt.md
-        - 01-apps/openai/operations/update-billing-address.md
+        - apps/openai/operations/accept-free-offer.md
+        - apps/openai/operations/cancel-chatgpt.md
+        - apps/openai/operations/update-billing-address.md
     - Perplexity:
       - Operations:
-        - 01-apps/perprexity/operations/create-account.md
-        - 01-apps/perprexity/operations/install-comet.md
+        - apps/perprexity/operations/create-account.md
+        - apps/perprexity/operations/install-comet.md
     - UniConverter:
       - Operations:
-        - 01-apps/uniconverter/operations/download-video.md
-        - 01-apps/uniconverter/operations/update-uniconverter.md
+        - apps/uniconverter/operations/download-video.md
+        - apps/uniconverter/operations/update-uniconverter.md
     - Unreal Engine:
       - Operations:
-        - 01-apps/unreal-engine/operations/change-camera-speed.md
-        - 01-apps/unreal-engine/operations/create-project.md
-        - 01-apps/unreal-engine/operations/create-video-project.md
-        - 01-apps/unreal-engine/operations/delete-project.md
-        - 01-apps/unreal-engine/operations/focus-object.md
-        - 01-apps/unreal-engine/operations/install-old-ver.md
-        - 01-apps/unreal-engine/operations/move-third-person-actor.md
-        - 01-apps/unreal-engine/operations/navigate-viewport.md
-        - 01-apps/unreal-engine/operations/orbit-around-object.md
-        - 01-apps/unreal-engine/operations/reset-viewport-view.md
-        - 01-apps/unreal-engine/operations/zoom.md
+        - apps/unreal-engine/operations/change-camera-speed.md
+        - apps/unreal-engine/operations/create-project.md
+        - apps/unreal-engine/operations/create-video-project.md
+        - apps/unreal-engine/operations/delete-project.md
+        - apps/unreal-engine/operations/focus-object.md
+        - apps/unreal-engine/operations/install-old-ver.md
+        - apps/unreal-engine/operations/move-third-person-actor.md
+        - apps/unreal-engine/operations/navigate-viewport.md
+        - apps/unreal-engine/operations/orbit-around-object.md
+        - apps/unreal-engine/operations/reset-viewport-view.md
+        - apps/unreal-engine/operations/zoom.md
     - Windows:
       - Operations:
-        - 01-apps/windows/operations/change-email.md
-        - 01-apps/windows/operations/open-account.md
-        - 01-apps/windows/operations/remove-linked-pc.md
-        - 01-apps/windows/operations/take-screenshot.md
+        - apps/windows/operations/change-email.md
+        - apps/windows/operations/open-account.md
+        - apps/windows/operations/remove-linked-pc.md
+        - apps/windows/operations/take-screenshot.md
   - Dev Notes:
     - Git:
       - Operations:
-        - 02-dev/git/operations/restore-files.md
+        - dev/git/operations/restore-files.md
       - Troubleshooting:
-        - 02-dev/git/troubleshooting/fix-default-blanch-name.md
-        - 02-dev/git/troubleshooting/fix-author-unknown.md
+        - dev/git/troubleshooting/fix-default-blanch-name.md
+        - dev/git/troubleshooting/fix-author-unknown.md
     - GitHub:
       - Operations:
-        - 02-dev/github/operations/change-repo-name.md
+        - dev/github/operations/change-repo-name.md
     - Docker:
       - Operations:
-        - 02-dev/docker/operations/disable-scout-notifications.md
-        - 02-dev/docker/operations/install-with-pip.md
+        - dev/docker/operations/disable-scout-notifications.md
+        - dev/docker/operations/install-with-pip.md
       - Troubleshooting:
-        - 02-dev/docker/troubleshooting/fix-api-connection.md
-        - 02-dev/docker/troubleshooting/fix-wsl-integration-stopped.md
+        - dev/docker/troubleshooting/fix-api-connection.md
+        - dev/docker/troubleshooting/fix-wsl-integration-stopped.md
     - Linux:
       - Operations:
-        - 02-dev/linux/operations/create-file.md
-        - 02-dev/linux/operations/create-folder.md
-        - 02-dev/linux/operations/create-open-file-vs-code.md
-        - 02-dev/linux/operations/move-file-with-mv.md
-        - 02-dev/linux/operations/navigate-to-repo-root.md
-        - 02-dev/linux/operations/open-folder-with-explorer.md
-        - 02-dev/linux/operations/open-md-file-with-code.md
-        - 02-dev/linux/operations/open-wsl-folder-windows.md
-        - 02-dev/linux/operations/use-nano-editor.md
+        - dev/linux/operations/create-file.md
+        - dev/linux/operations/create-folder.md
+        - dev/linux/operations/create-open-file-vs-code.md
+        - dev/linux/operations/move-file-with-mv.md
+        - dev/linux/operations/navigate-to-repo-root.md
+        - dev/linux/operations/open-folder-with-explorer.md
+        - dev/linux/operations/open-md-file-with-code.md
+        - dev/linux/operations/open-wsl-folder-windows.md
+        - dev/linux/operations/use-nano-editor.md
     - MkDocs:
       - Operations:
-        - 02-dev/mkdocs/operations/add-copyrightfooter.md
-        - 02-dev/mkdocs/operations/add-indentation.md
-        - 02-dev/mkdocs/operations/add-table.md
-        - 02-dev/mkdocs/operations/confirm-css.md
-        - 02-dev/mkdocs/operations/create-bilingual-site.md
-        - 02-dev/mkdocs/operations/create-link-open-in-new-tab.md
-        - 02-dev/mkdocs/operations/gh-deploy.md
-        - 02-dev/mkdocs/operations/display-date-at-bottom.md
-        - 02-dev/mkdocs/operations/display-date-at-top.md
-        - 02-dev/mkdocs/operations/publish-github.md
-        - 02-dev/mkdocs/operations/publish-docker-github-site.md
-        - 02-dev/mkdocs/operations/rebuid-mkdocs-docker-image.md
-        - 02-dev/mkdocs/operations/update-docker-github-site.md
-        - 02-dev/mkdocs/operations/view-deploy-error.md
+        - dev/mkdocs/operations/add-copyrightfooter.md
+        - dev/mkdocs/operations/add-indentation.md
+        - dev/mkdocs/operations/add-table.md
+        - dev/mkdocs/operations/confirm-css.md
+        - dev/mkdocs/operations/create-bilingual-site.md
+        - dev/mkdocs/operations/create-link-open-in-new-tab.md
+        - dev/mkdocs/operations/gh-deploy.md
+        - dev/mkdocs/operations/display-date-at-bottom.md
+        - dev/mkdocs/operations/display-date-at-top.md
+        - dev/mkdocs/operations/publish-github.md
+        - dev/mkdocs/operations/publish-docker-github-site.md
+        - dev/mkdocs/operations/rebuid-mkdocs-docker-image.md
+        - dev/mkdocs/operations/update-docker-github-site.md
+        - dev/mkdocs/operations/view-deploy-error.md
       - Troubleshooting:
-        - 02-dev/mkdocs/troubleshooting/get-http.md
-        - 02-dev/mkdocs/troubleshooting/get-sitemap.md
-        - 02-dev/mkdocs/troubleshooting/not-included-in-nav.md
+        - dev/mkdocs/troubleshooting/get-http.md
+        - dev/mkdocs/troubleshooting/get-sitemap.md
+        - dev/mkdocs/troubleshooting/not-included-in-nav.md
       - Reference:
-        - 02-dev/mkdocs/reference/docker-run-command.md
-        - 02-dev/mkdocs/reference/packages.md
+        - dev/mkdocs/reference/docker-run-command.md
+        - dev/mkdocs/reference/packages.md
     - Notepad++:
       - Operations:
-        - 02-dev/notepad-pp/operations/comment-out.md
-        - 02-dev/notepad-pp/operations/set-default-save-folder.md
+        - dev/notepad-pp/operations/comment-out.md
+        - dev/notepad-pp/operations/set-default-save-folder.md
     - VS Code:
       - Operations:
-        - 02-dev/vs-code/operations/add-image-to-doc.md
-        - 02-dev/vs-code/operations/add-image-to-folder.md
-        - 02-dev/vs-code/operations/add-multiple-images.md
-        - 02-dev/vs-code/operations/cancel-command.md
-        - 02-dev/vs-code/operations/connect-github.md
-        - 02-dev/vs-code/operations/copy-win-to-linux.md
-        - 02-dev/vs-code/operations/move-files-linux.md
-        - 02-dev/vs-code/operations/install-github-actions.md
-        - 02-dev/vs-code/operations/open-linux-folder.md
-        - 02-dev/vs-code/operations/open-ubuntu.md
-        - 02-dev/vs-code/operations/preview-markdown.md
-        - 02-dev/vs-code/operations/remove-tab-identation.md
-        - 02-dev/vs-code/operations/replace-image.md
+        - dev/vs-code/operations/add-image-to-doc.md
+        - dev/vs-code/operations/add-image-to-folder.md
+        - dev/vs-code/operations/add-multiple-images.md
+        - dev/vs-code/operations/cancel-command.md
+        - dev/vs-code/operations/connect-to-github.md
+        - dev/vs-code/operations/copy-win-to-linux.md
+        - dev/vs-code/operations/move-files-linux.md
+        - dev/vs-code/operations/install-github-actions.md
+        - dev/vs-code/operations/open-linux-folder.md
+        - dev/vs-code/operations/open-ubuntu.md
+        - dev/vs-code/operations/preview-markdown.md
+        - dev/vs-code/operations/remove-tab-indentation.md
+        - dev/vs-code/operations/replace-image.md
   - Mobile Notes:
     - Simplenote:
       - Operations:
-        - 03-phone/simplenote/operations/introduce-simplenote.md
+        - mobiles/simplenote/operations/introduce-simplenote.md
   - Photo Gallery:
     - Rooms: 
-      - Room 01: 05-photos/rooms/room01.md
+      - Room 01: photos/rooms/room01.md
 
 # Japanese Navigation
 nav_ja: &nav_ja
