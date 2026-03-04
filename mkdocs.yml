@@ -89,6 +89,7 @@ nav_en: &nav_en
     - XnView:
       - Operations:
         - apps/xnview/operations/convert-png-to-webp.md
+        - apps/xnview/operations/edit-image.md
         - apps/xnview/operations/resize-images.md
   - Dev Notes:
     - Git:
