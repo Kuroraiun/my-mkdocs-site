@@ -5,7 +5,10 @@ hide:
 ---
 # Bitbyzen
 
-*Learn and build, bit by bit.*
+本サイトは、フリーランスプログラマーによる備忘録サイトです。  
+日々の作業や調査で得た知識や手順をまとめています。
 
-Bitbyzen brings together digital creation, careful craftsmanship, and simple design.  
-It’s a place for applications, notes, and educational videos—shared with a focus on clarity and calm.
+※本サイトは MkDocs Material を使用して作成しています。
+
+* MkDocs公式サイト: https://www.mkdocs.org/
+* Material公式サイト: https://squidfunk.github.io/mkdocs-material/
