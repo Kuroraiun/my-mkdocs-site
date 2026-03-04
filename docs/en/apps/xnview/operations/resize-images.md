@@ -1,6 +1,6 @@
-# Resize image height using XnView MP
+# Resize image height
 
-Resize multiple images to a fixed height while preserving aspect ratio using XnView MP.
+Resize multiple images to a fixed height while preserving aspect ratio.
 
 ## Steps
 

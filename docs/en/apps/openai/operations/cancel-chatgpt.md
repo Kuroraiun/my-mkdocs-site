@@ -6,7 +6,7 @@
 1. Select **Account**.
     ![Screenshot](cancel-chatgpt-02.png)
 
-1. Select **Manage** > **Cancel Subscription**.
+1. Select **Manage** → **Cancel Subscription**.
     ![Screenshot](cancel-chatgpt-03.png)
 
 1. Click **Cancel subscription**.

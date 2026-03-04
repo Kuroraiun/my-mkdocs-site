@@ -24,9 +24,7 @@ nav_en: &nav_en
     - Utilities:
       - Operations:
         - apps/utilities/operations/change-file-extensions.md
-        - apps/utilities/operations/convert-png-to-webp.md
         - apps/utilities/operations/create-window-layout.md
-        - apps/utilities/operations/resize-images.md
     - Bitwarden:
       - Operations:
         - apps/bitwarden/operations/change-master-pw.md
@@ -88,6 +86,10 @@ nav_en: &nav_en
         - apps/windows/operations/open-account.md
         - apps/windows/operations/remove-linked-pc.md
         - apps/windows/operations/take-screenshot.md
+    - XnView:
+      - Operations:
+        - apps/xnview/operations/convert-png-to-webp.md
+        - apps/xnview/operations/resize-images.md
   - Dev Notes:
     - Git:
       - Operations:
