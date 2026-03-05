@@ -66,6 +66,7 @@ nav_en: &nav_en
     - UniConverter:
       - Operations:
         - apps/uniconverter/operations/download-video.md
+        - apps/uniconverter/operations/change-save-folders.md
         - apps/uniconverter/operations/update-uniconverter.md
     - Unreal Engine:
       - Operations:
@@ -216,6 +217,7 @@ nav_ja: &nav_ja
     - マイナンバー:
       - business/my-number/use-my-number-health-card.md
     - マイナポータル:
+      - business/myna-portal/download-doc.md
       - business/myna-portal/log-in-with-pc.md
 
 plugins:
