@@ -2,4 +2,4 @@
 
 Use **Flexible Renamer**.
 
-![Screenshot](change-file-extensions-01.png)
+![Screenshot](change-file-extensions-01.webp)

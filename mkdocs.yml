@@ -43,7 +43,7 @@ nav_en: &nav_en
         - apps/gimp/operations/update-gimp.md
     - Google Chrome:
       - Operations:
-        - apps/google-chrome/open-new-google-page.md
+        - apps/google-chrome/operations/open-new-google-page.md
     - Google Drive:
       - Operations:
         - apps/google-drive/operations/change-folder-access-role.md
@@ -84,6 +84,7 @@ nav_en: &nav_en
     - Windows:
       - Operations:
         - apps/windows/operations/change-email.md
+        - apps/windows/operations/lock-drive.md
         - apps/windows/operations/open-account.md
         - apps/windows/operations/remove-linked-pc.md
         - apps/windows/operations/take-screenshot.md
@@ -92,6 +93,7 @@ nav_en: &nav_en
         - apps/xnview/operations/convert-png-to-webp.md
         - apps/xnview/operations/edit-image.md
         - apps/xnview/operations/resize-images.md
+        - apps/xnview/operations/update-xnview.md
   - Dev Notes:
     - Git:
       - Operations:
@@ -122,7 +124,7 @@ nav_en: &nav_en
         - dev/linux/operations/use-nano-editor.md
     - MkDocs:
       - Operations:
-        - dev/mkdocs/operations/add-copyrightfooter.md
+        - dev/mkdocs/operations/add-copyright-footer.md
         - dev/mkdocs/operations/add-indentation.md
         - dev/mkdocs/operations/add-table.md
         - dev/mkdocs/operations/confirm-css.md
@@ -178,8 +180,6 @@ nav_ja: &nav_ja
       - apps/utilities/split-audio.md
     - Acrobat:
       - apps/acrobat/remove-password.md
-    - BitLocker:
-      - apps/bitlocker/unlock.md
     - ChatGPT:
       - apps/chatgpt/convert-chat-to-word.md
     - Claude:
@@ -206,7 +206,7 @@ nav_ja: &nav_ja
   - 製品メモ:
     - Sharp:
       - 冷蔵庫SJ-X415H-S:
-        - products/sharp/refrigerator/refrigerator-notes.md
+        - products/sharp/refrigerator/fix-led.md
     - Torras:
       - モバイルバッテリーPB4A:
         - products/torras/turn-on-charger.md

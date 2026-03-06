@@ -8,13 +8,13 @@
 
 ## 手順
 1. **Share**機能を選択する。
-![alt text](convert-chat-to-word-01.png)
+![alt text](convert-chat-to-word-01.webp)
 
 1. 共有先選択画面に遷移する。
-![alt text](convert-chat-to-word-02.png)
+![alt text](convert-chat-to-word-02.webp)
 
 1. テキストを全選択+コピーする。
-![alt text](convert-chat-to-word-03.png)
+![alt text](convert-chat-to-word-03.webp)
 
 1. Wordファイルにペーストする。
-![alt text](convert-chat-to-word-04.png)
+![alt text](convert-chat-to-word-04.webp)

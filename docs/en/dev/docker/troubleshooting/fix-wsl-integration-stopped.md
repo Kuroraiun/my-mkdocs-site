@@ -16,7 +16,7 @@ Restart WSL integration for your Linux distribution in Docker Desktop.
 
 1. Click **Skip WSL distro integration**.
 
-    ![Screenshot](fix-wsl-integration-stopped-01.png)
+    ![Screenshot](fix-wsl-integration-stopped-01.webp)
 
 2. Open Docker Desktop.
 
@@ -31,7 +31,7 @@ Restart WSL integration for your Linux distribution in Docker Desktop.
 
 5. Click **Apply & restart**.
 
-    ![Screenshot](fix-wsl-integration-stopped-02.png)
+    ![Screenshot](fix-wsl-integration-stopped-02.webp)
 
 6. Wait for Docker Desktop to restart.
 

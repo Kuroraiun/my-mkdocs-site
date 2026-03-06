@@ -4,16 +4,16 @@
 
 2. Select **FancyZones**.
 
-    ![Screenshot](create-window-layout-01.png)
+    ![Screenshot](create-window-layout-01.webp)
 
 3. Click **Open layout editor**
    *(Shortcut: Win + Shift + ` )*.
 
-    ![Screenshot](create-window-layout-02.png)
+    ![Screenshot](create-window-layout-02.webp)
 
 4. Click **Create new layout**.
 
-    ![Screenshot](create-window-layout-03.png)
+    ![Screenshot](create-window-layout-03.webp)
 
 5. Enter a **Name**.
 
@@ -24,4 +24,4 @@
 
 7. Click **Create**.
 
-    ![Screenshot](create-window-layout-04.png)
+    ![Screenshot](create-window-layout-04.webp)

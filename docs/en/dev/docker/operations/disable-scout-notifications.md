@@ -10,4 +10,4 @@ Scout wants to send OS Notifications through Docker Desktop
 
 1. Select **Settings** > **Notifications**.
 1. Disable **OS notifications**.
-    ![Screnshot](disable-scout-notifications-01.png)
+    ![Screnshot](disable-scout-notifications-01.webp)

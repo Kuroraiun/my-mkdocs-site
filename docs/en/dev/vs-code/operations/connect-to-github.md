@@ -12,17 +12,17 @@
     The extension 'GitHub' wants to sign in using GitHub.
     ```
 
-    ![Screenshot](connect-to-github-01.png)
+    ![Screenshot](connect-to-github-01.webp)
 
 3. Click **Authorize Visual Studio Code** in your browser.
 
-    ![Screenshot](connect-to-github-02.png)
+    ![Screenshot](connect-to-github-02.webp)
 
 4. Click **Open Visual Studio Code**.
 
-    ![Screenshot](connect-to-github-03.png)
+    ![Screenshot](connect-to-github-03.webp)
 
 5. Close the browser page.
 
-    ![Screenshot](connect-to-github-04.png)
+    ![Screenshot](connect-to-github-04.webp)
 

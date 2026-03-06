@@ -21,7 +21,7 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
 
 2. Click **New** to create a repository.
 
-    ![Screenshot](publish-docker-github-site-01.png)
+    ![Screenshot](publish-docker-github-site-01.webp)
 
 3. Set the following options:
     - **Repository name**: Any name
@@ -31,11 +31,11 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
     - **Add .gitignore**: **No** (optional)
     - **Add license**: **No** (optional)
 
-    ![Screenshot](publish-docker-github-site-02.png)
+    ![Screenshot](publish-docker-github-site-02.webp)
 
 4. The repository is created.
 
-    ![Screenshot](publish-docker-github-site-03.png)
+    ![Screenshot](publish-docker-github-site-03.webp)
 
  
 ## 2) Preview the site locally
@@ -139,7 +139,7 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
 
             - uses: actions/deploy-pages@v4
       ```
-    ![Screenshot](publish-docker-github-site-06.png)
+    ![Screenshot](publish-docker-github-site-06.webp)
 
 4. Commit and push the workflow:
 
@@ -151,17 +151,17 @@ This guide assumes you build and preview MkDocs **inside Docker**, and publish t
 
 5. Open the **Actions** tab and confirm that the workflow completes successfully (green ✅).
 
-    ![Screenshot](publish-docker-github-site-07.png)
+    ![Screenshot](publish-docker-github-site-07.webp)
 
 ## 5) Enable GitHub Pages (use GitHub Actions as the source)
 
 1. Go to **Settings > Pages**.
 
-    ![Screenshot](publish-docker-github-site-04.png)
+    ![Screenshot](publish-docker-github-site-04.webp)
 
 2. Under **Build and deployment > Source**, select **GitHub Actions**.
 
-    ![Screenshot](publish-docker-github-site-05.png)
+    ![Screenshot](publish-docker-github-site-05.webp)
 
 3. The site should be available at:
 

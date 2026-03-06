@@ -11,10 +11,10 @@
 
 ## 参考画像
 ### VS Codeから起動する場合
-![Screenshot](open-ubuntu-01.png)
+![Screenshot](open-ubuntu-01.webp)
 
 ### PowerSellから起動する場合
-![Screenshot](open-ubuntu-02.png)
+![Screenshot](open-ubuntu-02.webp)
 
 ### アプリリストから起動する場合
-![Screenshot](open-ubuntu-03.png)
+![Screenshot](open-ubuntu-03.webp)

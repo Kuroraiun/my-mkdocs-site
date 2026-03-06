@@ -9,7 +9,7 @@ You can rename your repository at any time from the repository settings.
 3. Make sure the **General** tab is selected.
 4. Under **Repository name**, enter the new name for your repository.
 5. Click **Rename** to apply the change.
-![Screenshot](change-repo-name-01.png)
+![Screenshot](change-repo-name-01.webp)
 
 ## Notes
 

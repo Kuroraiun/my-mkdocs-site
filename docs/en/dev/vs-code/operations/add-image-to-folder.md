@@ -10,11 +10,11 @@
 
 1. Press **Ctrl + Shift + X** to open the **Extensions** view, then search for **“WSL” by Microsoft**.
 
-    ![Screenshot](add-image-to-folder-01.png)
+    ![Screenshot](add-image-to-folder-01.webp)
 
 2. Install the extension.
 
-    ![Screenshot](add-image-to-folder-02.png)
+    ![Screenshot](add-image-to-folder-02.webp)
 
 3. Restart VS Code after installation.
 
@@ -24,11 +24,11 @@
 
 2. Select **Connect to WSL**.
 
-    ![Screenshot](add-image-to-folder-03.png)
+    ![Screenshot](add-image-to-folder-03.webp)
 
 3. Check the following two indicators:
 
-    ![Screenshot](add-image-to-folder-04.png)
+    ![Screenshot](add-image-to-folder-04.webp)
 
     * **Title bar:** `mkdocs [WSL: Ubuntu]`
     * **Bottom-left:** `WSL: Ubuntu`

@@ -11,7 +11,7 @@ Indent nested content correctly inside numbered steps.
 3. Insert the content under the step.
 
    ```
-    ![Screenshot](add-indentation-01.png)
+    ![Screenshot](add-indentation-01.webp)
    ```
 
 ## Indentation rules
@@ -21,7 +21,7 @@ Use consistent indentation markers when documenting structure.
 ### Screenshots
 
 ```text
-[tab][tab]![Screenshot](image.png)
+[tab][tab]![Screenshot](image.webp)
 ```
 
 ### URLs

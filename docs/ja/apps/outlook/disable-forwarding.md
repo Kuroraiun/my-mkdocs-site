@@ -2,8 +2,8 @@
 
 1. **File** > **Settings**をクリックする。
 
-    ![Screenshot](disable-forwarding-01.png)
+    ![Screenshot](disable-forwarding-01.webp)
 
 1. **Enable forwarding**をオフにする。
 
-    ![Screenshot](disable-forwarding-02.png)
+    ![Screenshot](disable-forwarding-02.webp)

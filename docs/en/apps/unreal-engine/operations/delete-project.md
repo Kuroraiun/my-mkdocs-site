@@ -10,7 +10,7 @@ Follow these steps to delete an Unreal Engine project.
 
 2. In the Unreal Project Browser, select the project you want to delete, then click **Browse**.
 
-    ![Screenshot](delete-project-01.png)
+    ![Screenshot](delete-project-01.webp)
 
 3. In File Explorer, delete the project folder.
 

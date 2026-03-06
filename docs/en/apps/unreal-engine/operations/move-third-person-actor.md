@@ -6,7 +6,7 @@ Control the default Third Person character during gameplay.
 
 1. Click **Play** to start the game.
 
-    ![Screenshot](move-third-person-actor-01.png)
+    ![Screenshot](move-third-person-actor-01.webp)
 
 2. Use **W**, **A**, **S**, and **D** to move.
 
