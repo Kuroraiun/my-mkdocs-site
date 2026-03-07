@@ -36,6 +36,9 @@ nav_en: &nav_en
       - Operations:
         - apps/eijiro/operations/check-accout-info.md
         - apps/eijiro/operations/delete-account.md
+    - FreeFileSync:
+      - Operations:
+        - apps/free-file-sync/operations/install-free-file-sync.md
     - GIMP:
       - Operations:
         - apps/gimp/operations/convert-crw-to-png.md
