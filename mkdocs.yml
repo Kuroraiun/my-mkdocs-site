@@ -38,7 +38,9 @@ nav_en: &nav_en
         - apps/eijiro/operations/delete-account.md
     - FreeFileSync:
       - Operations:
-        - apps/free-file-sync/operations/install-free-file-sync.md
+        - apps/freefilesync/operations/create-backup.md
+        - apps/freefilesync/operations/enable-auto-synch.md
+        - apps/freefilesync/operations/install-freefilesync.md
     - GIMP:
       - Operations:
         - apps/gimp/operations/convert-crw-to-png.md

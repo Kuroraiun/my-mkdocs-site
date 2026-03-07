@@ -10,28 +10,28 @@ Install FreeFileSync from the official website.
 
 2. Click **Download**.
 
-    ![Screenshot](install-free-file-sync-01.webp)
+    ![Screenshot](install-freefilesync-01.webp)
 
 3. Scroll down the page.
 
-    ![Screenshot](install-free-file-sync-02.webp)
+    ![Screenshot](install-freefilesync-02.webp)
 
 4. Click **Download FreeFileSync Windows**.
 
-    ![Screenshot](install-free-file-sync-03.webp)
+    ![Screenshot](install-freefilesync-03.webp)
 
 5. Select **I accept the agreement**, then click **Next**.
 
-    ![Screenshot](install-free-file-sync-04.webp)
+    ![Screenshot](install-freefilesync-04.webp)
 
 6. Select the installation location, then click **Next**.
 
-    ![Screenshot](install-free-file-sync-05.webp)
+    ![Screenshot](install-freefilesync-05.webp)
 
 7. Select the components to install, then click **Next**.
 
-    ![Screenshot](install-free-file-sync-06.webp)
+    ![Screenshot](install-freefilesync-06.webp)
 
 8. Click **Finish**.
 
-    ![Screenshot](install-free-file-sync-07.webp)
+    ![Screenshot](install-freefilesync-07.webp)
