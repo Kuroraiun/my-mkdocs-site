@@ -171,6 +171,9 @@ nav_en: &nav_en
         - dev/vs-code/operations/remove-tab-indentation.md
         - dev/vs-code/operations/replace-image.md
   - Mobile Notes:
+    - Google Photos:
+      - Operations:
+        - mobiles/google-photos/operations/disable-backup.md
     - Simplenote:
       - Operations:
         - mobiles/simplenote/operations/introduce-simplenote.md
