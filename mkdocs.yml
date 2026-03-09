@@ -63,6 +63,7 @@ nav_en: &nav_en
     - Obsidian:
       - Operations:
         - apps/obsidian/operations/import-onenote.md
+        - apps/obsidian/operations/open-vault-folder.md
     - OpenAI:
       - Operations:
         - apps/openai/operations/accept-free-offer.md
