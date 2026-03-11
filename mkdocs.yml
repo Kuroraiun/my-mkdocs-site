@@ -196,6 +196,8 @@ nav_ja: &nav_ja
       - apps/utilities/split-audio.md
     - Acrobat:
       - apps/acrobat/remove-password.md
+    - Amazon:
+      - apps/amazon/change-payment.md
     - ChatGPT:
       - apps/chatgpt/convert-chat-to-word.md
     - Claude:
