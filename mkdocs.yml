@@ -169,6 +169,7 @@ nav_en: &nav_en
         - dev/vs-code/operations/add-multiple-images.md
         - dev/vs-code/operations/cancel-command.md
         - dev/vs-code/operations/connect-to-github.md
+        - dev/vs-code/operations/connect-to-wsl.md
         - dev/vs-code/operations/copy-win-to-linux.md
         - dev/vs-code/operations/move-files-linux.md
         - dev/vs-code/operations/install-github-actions.md
