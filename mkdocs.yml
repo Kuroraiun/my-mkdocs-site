@@ -221,6 +221,8 @@ nav_ja: &nav_ja
   - モバイルメモ:
     - Google Maps:
       - mobiles/google-maps/explore-on-foot.md
+    - Google Pixel:
+      - mobiles/google-pixel/change-screenshot-format.md
     - モバイルICOCA:
       - mobiles/mobile-icoca/overview.md
   - 製品メモ:
@@ -232,6 +234,7 @@ nav_ja: &nav_ja
         - products/torras/turn-on-charger.md
         - products/torras/use-low-current-mode.md
   - 言語メモ:
+    - languages/compared-sentences.md
     - languages/sentences.md
   - ビジネスメモ:
     - マイナンバー:
