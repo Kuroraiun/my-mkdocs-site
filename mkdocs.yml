@@ -62,6 +62,7 @@ nav_en: &nav_en
         - apps/memoq/operations/update-address.md
     - Obsidian:
       - Operations:
+        - apps/obsidian/operations/display-images.md
         - apps/obsidian/operations/import-onenote.md
         - apps/obsidian/operations/open-vault-folder.md
         - apps/obsidian/operations/show-whitespace.md
